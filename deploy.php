@@ -8,7 +8,8 @@
 
     // array of commands
     $commands = array(
-        'sudo git pull',
+        'sudo su',
+        'git pull',
     );
 
     // exec commands
