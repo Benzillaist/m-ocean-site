@@ -9,7 +9,13 @@
     // array of commands
     $commands = array(
         'sudo su',
+        'echo $PWD',
+        'whoami',
         'git pull',
+        'git status',
+        'git submodule sync',
+        'git submodule update',
+        'git submodule status',
     );
 
     // exec commands
