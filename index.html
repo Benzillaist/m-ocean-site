@@ -1,13 +1,232 @@
 <!doctype html>
 <html>
-  <head>
-    <title>MOCEAN</title>
-  </head>
-  <body>
-    <p>This is the future homepage for MOCEAN </p>
-    <img src="images/Block_Island_offshore_wind_farm_P6290638m.jpg" alt="Offshore wind farm" style="
-                                                                                             object-fit:scale-down;
-                                                                                             width:40%;
-                                                                                             height:auto;"/>
-  </body>
+	<head>
+		<title>MOCEAN </title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script src="scripts.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js"></script>
+<!--		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>-->
+<!--		<link href="css/bootstrap.min.css" rel="stylesheet">-->
+	</head>
+	<body>
+		<div id="root">
+			<div class="left-block">
+				<div class="block-header" id="hleft"></div>
+				<div class="block-footer"></div>
+			</div>
+			<div class="site-info">
+				<div class="header-container" id="header-container">
+					<img src="images/cloud-header.jpg" alt="Cloud Header" id="cloud-header">
+					<div class="header-navbar" id="hcenter">
+						<div class="header-left">
+							<h1>
+								MOCEAN
+							</h1>
+						</div>
+						<ul role="navigation" class="header-dropdowns" id="header-dropdowns">
+							<li class="dropdown-container"><a aria-haspopup="true" class="dropdown-container-text">Proposal</a>
+								<ul class="dropdown" aria-label="submenu">
+									<li><a href="proposal-summary.html">Proposal Summary</a></li>
+									<li><a href="participant-organizations.html">Participant Organization</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-container"><a aria-haspopup="true" class="dropdown-container-text">Workshops</a>
+								<ul class="dropdown" aria-label="submenu">
+									<li><a href="workshop-1.html">Workshop 1: XX/XX/XX</a></li>
+									<li><a href="workshop-2.html">Workshop 2: XX/XX/XX</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-container"><a aria-haspopup="true" class="dropdown-container-text">People</a>
+								<ul class="dropdown" aria-label="submenu">
+									<li><a href="key-personnel.html">Meet the Team</a></li>
+									<li><a href="contact-us.html">Contact Us</a></li>
+								</ul>
+							</li>
+						</ul>
+						<div class="header-right" id="header-text-right" href="contact-us.html" onclick="window.location='contact-us.html';">
+							<h2>
+								Contact us
+							</h2>
+						</div>
+					</div>
+					<div class="white-spacer"></div>
+				</div>
+				<div class="body-container" id="body">
+					<div class="home-img-container">
+						<img src="images/Block_Island_offshore_wind_farm_P6290638m.jpg" alt="Offshore wind farm" style="img"/>
+						<div class="home-img-overlay">
+							<h2 style="align-items: left;">
+								MOCEAN Proposal:
+							</h2>
+								<p>
+									Accelerating a Just Energy Transition While Nurturing Healthy Oceans and New Blue Economies Through Innovative Nature-Inclusive Offshore Wind Farms
+								</p>
+						</div>
+					</div>
+					<div class="mission">
+						<h2>Our Mission Statement </h2>
+						<div class="mission-statement">
+							<div class="mission-block"></div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta nunc eu arcu auctor, id cursus eros tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque rutrum hendrerit dui, ac ullamcorper lacus convallis eu. Maecenas gravida sem pretium, pellentesque elit rhoncus, euismod orci. Aenean pretium et enim ac ultricies.
+								</p>
+							<div class="mission-block"></div>
+						</div>
+					</div>
+					<div class="deep-blue-bar"></div>
+					<div class="page-link-boxes">
+						<div class="proposal-boxes">
+							<div class="plb-text">
+								<h2>
+									The Proposal
+								</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta nunc eu arcu auctor, id cursus eros tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque rutrum hendrerit dui, ac ullamcorper lacus convallis eu. Maecenas gravida sem pretium, pellentesque elit rhoncus, euismod orci. Aenean pretium et enim ac ultricies.
+								</p>
+							</div>
+							<div class="link-box-section">
+								<div class="page-link-box" >
+									<div class="plb-backdrop"></div>
+									<img src="images/proposal-summary.png" alt="proposal summary">
+									<div class="plb-overlay" href="proposal-summary.html">
+										<h2 href="proposal-summary.html">Proposal Summary</h2>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta nunc eu arcu auctor, id cursus eros tincidunt.
+										</p>
+										<p class="learn-more" onclick="document.location='proposal-summary.html'">
+											Learn more →
+										</p>
+									</div>
+								</div>
+								<div class="page-link-box">
+									<div class="plb-backdrop"></div>
+									<img src="images/participant-organizations.png" alt="participant organizations">
+									<div class="plb-overlay">
+										<h2>Participant Organizations</h2>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta nunc eu arcu auctor, id cursus eros tincidunt.
+										</p>
+										<p class="learn-more">
+											Learn more →
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="deep-blue-bar"></div>
+						<div class="workshop-boxes">
+							<div class="plb-text">
+								<h2>
+									The Workshops
+								</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta nunc eu arcu auctor, id cursus eros tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque rutrum hendrerit dui, ac ullamcorper lacus convallis eu. Maecenas gravida sem pretium, pellentesque elit rhoncus, euismod orci. Aenean pretium et enim ac ultricies.
+								</p>
+							</div>
+							<div class="link-box-section">
+								<div class="page-link-box">
+									<div class="plb-backdrop"></div>
+									<img src="images/workshop-1.png" alt="workshop 1">
+									<div class="plb-overlay">
+										<h2>Workshop 1: DATE</h2>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta nunc eu arcu auctor, id cursus eros tincidunt.
+										</p>
+										<p class="learn-more">
+											Learn more →
+										</p>
+									</div>
+								</div>
+								<div class="page-link-box">
+									<div class="plb-backdrop"></div>
+									<img src="images/workshop-2.png" alt="workshop 2">
+									<div class="plb-overlay">
+										<h2>Workshop 2: DATE</h2>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta nunc eu arcu auctor, id cursus eros tincidunt.
+										</p>
+										<p class="learn-more">
+											Learn more →
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="deep-blue-bar"></div>
+						<div class="people-boxes">
+							<div class="plb-text">
+								<h2>
+									The People
+								</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta nunc eu arcu auctor, id cursus eros tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque rutrum hendrerit dui, ac ullamcorper lacus convallis eu. Maecenas gravida sem pretium, pellentesque elit rhoncus, euismod orci. Aenean pretium et enim ac ultricies.
+								</p>
+							</div>
+							<div class="link-box-section">
+								<div class="page-link-box">
+									<div class="plb-backdrop"></div>
+									<img src="images/key-personnel.png" alt="key personnel">
+									<div class="plb-overlay">
+										<h2>Key Personnel</h2>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta nunc eu arcu auctor, id cursus eros tincidunt.
+										</p>
+										<p class="learn-more">
+											Learn more →
+										</p>
+									</div>
+								</div>
+								<div class="page-link-box">
+									<div class="plb-backdrop"></div>
+									<img src="images/contact-us.png" alt="contact us">
+									<div class="plb-overlay">
+										<h2>Contact Us</h2>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta nunc eu arcu auctor, id cursus eros tincidunt.
+										</p>
+										<p class="learn-more">
+											Learn more →
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-container">
+					<div class="footer-contents">
+						<div class="footer-left">
+							<p>
+								©MOCEAN
+							</p>
+							<p class="social-site">
+								Email:
+								[INSERT EMAIL HERE]
+							</p>
+						</div>
+						<div class="footer-right">
+							<p>
+								Follow us on:
+							</p>
+							<div class="social-flex">
+								<p class="social-site">
+									Facebook
+								</p>
+								<p class="social-site">
+									Twitter
+								</p>
+								<p class="social-site">
+									Youtube
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="right-block">
+				<div class="block-header" id="hright"></div>
+				<div class="block-footer"></div>
+			</div>
+		</div>
+	</body>
 </html>
