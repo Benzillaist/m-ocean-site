@@ -90,3 +90,23 @@ function updateHeaderText() {
 		
 	}
 }
+
+var activePersonID = false;
+
+function handlePersonRequest(ele) {
+	
+//	alert("test");
+	var answerID = "a" + ele.id;
+	
+	document.getElementById(answerID).style["min-width"] = "0px";
+	document.getElementById(answerID).style["font-size"] = "0px";
+	document.getElementById(answerID).style["visibility"] = "hidden";
+	document.getElementById(answerID).style["border"] = "none";
+//	border: 1px blue solid;
+	
+//	if(activePersonID == id) {
+//		document.getElementById("a" + id.toString()).style["min-width"] = "200px";
+//	} else {
+//		activePersonID = true;
+//	}
+}
