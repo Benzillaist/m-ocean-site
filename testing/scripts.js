@@ -91,22 +91,46 @@ function updateHeaderText() {
 	}
 }
 
-var activePersonID = false;
+var activePersonID = -1;
 
 function handlePersonRequest(ele) {
 	
 //	alert("test");
-	var answerID = "a" + ele.id;
+	var requestAnswerID = "a" + ele.id;
+	var activeAnswerID = "a" + activePersonID;
 	
-	document.getElementById(answerID).style["min-width"] = "0px";
-	document.getElementById(answerID).style["font-size"] = "0px";
-	document.getElementById(answerID).style["visibility"] = "hidden";
-	document.getElementById(answerID).style["border"] = "none";
-//	border: 1px blue solid;
-	
-//	if(activePersonID == id) {
-//		document.getElementById("a" + id.toString()).style["min-width"] = "200px";
-//	} else {
-//		activePersonID = true;
-//	}
+	if(ele.id == activePersonID) {
+		// shrink active info panel
+		document.getElementById(activeAnswerID).style["min-width"] = "0px";
+		document.getElementById(activeAnswerID).style["font-size"] = "0px";
+		document.getElementById(activeAnswerID).style["visibility"] = "hidden";
+		document.getElementById(activeAnswerID).style["border"] = "none";
+		
+		// resets the active person as no info panels will be open
+		activePersonID = -1;
+	} else if(activePersonID >= 0) {
+		// shrink active info panel
+		document.getElementById(activeAnswerID).style["min-width"] = "0px";
+		document.getElementById(activeAnswerID).style["font-size"] = "0px";
+		document.getElementById(activeAnswerID).style["visibility"] = "hidden";
+		document.getElementById(activeAnswerID).style["border"] = "none";
+		
+		// expand new info panel
+		document.getElementById(requestAnswerID).style["min-width"] = Math.max(Math.min(window.innerWidth, 1000)-301, 295) + "px";
+		document.getElementById(requestAnswerID).style["font-size"] = "16px";
+		document.getElementById(requestAnswerID).style["visibility"] = "visible";
+		document.getElementById(requestAnswerID).style["border"] = "1px blue solid";
+		
+		// sets the active person to the element that requested the info
+		activePersonID = ele.id;
+	} else {
+		// expand new info panel
+		document.getElementById(requestAnswerID).style["min-width"] = Math.max(Math.min(window.innerWidth, 1000)-306, 295) + "px";
+		document.getElementById(requestAnswerID).style["font-size"] = "16px";
+		document.getElementById(requestAnswerID).style["visibility"] = "visible";
+		document.getElementById(requestAnswerID).style["border"] = "1px blue solid";
+		
+		// sets the active person to the element that requested the info
+		activePersonID = ele.id;
+	}
 }

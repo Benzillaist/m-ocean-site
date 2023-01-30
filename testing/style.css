@@ -616,26 +616,37 @@ ul li ul li {
 }
 
 .person-container {
-	flex: 1 1 1;
+	flex: 1 1 0;
 	display: flex;
-	border: 1px red solid;
+/*	border: 1px red solid;*/
+	transition-duration: 0.2s;
+	top: 50%;
+	left: 50%;
 }
 
 .person {
-	width: 175px;
+	display: flex;
+	flex-direction: column;
+	width: 180px;
 	height: auto;
 	padding: 10px !important;
 	margin: 10px !important;
 	border: 1px black solid;
+	top: 50%;
+	left: 50%;
 }
 
 .person-image {
-	flex: 1;
+/*	display: flex;*/
+/*	flex: 1;*/
 	position: relative;
 	object-fit: cover;
 	width: 175px;
 	height: auto;
 	vertical-align: middle;
+	align-content: center;
+	align-self: center;
+	align-items: center;
 }
 
 .person-text {
@@ -652,7 +663,7 @@ ul li ul li {
 }
 
 .person-learn-more {
-	
+	cursor: pointer;
 }
 
 .person-questions p {
@@ -663,10 +674,13 @@ ul li ul li {
 
 .answer-container {
 	flex: 1;
-	visibility: visible;
-	min-width: 700px;
-	border: 1px blue solid;
+	visibility: hidden;
+/*	min-width: 700px;*/
+/*	border: 1px blue solid;*/
+	font-size: 0px;
 	width: 0px;
+	transition-duration: 0.2s;
+	position: relative;
 }
 
 .answer-question {
