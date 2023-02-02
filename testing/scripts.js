@@ -12,6 +12,7 @@ window.onload = function() {onloadFunction()}
 
 function scrollFunction() {
 	updateHeaderText();
+	tellMobile();
 	
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("hcenter").style.fontSize = "1em";
@@ -50,10 +51,12 @@ function scrollFunction() {
 
 function resizeFunction() {
 	updateHeaderText();
+	tellMobile();
 }
 
 function onloadFunction() {
 	updateHeaderText();
+	tellMobile;
 }
 
 function updateHeaderText() {
@@ -148,5 +151,15 @@ function handlePersonRequest(ele) {
 		
 		// sets the active person to the element that requested the info
 		activePersonID = ele.id;
+	}
+}
+
+function tellMobile() {
+	if(window.innerWidth <= 600) {
+		document.getElementById("slides-mobile-alert").style["font-size"] = "16px";
+		document.getElementById("slides-mobile-alert").style["padding-bottom"] = "3%";
+	} else {
+		document.getElementById("slides-mobile-alert").style["font-size"] = "0px";
+		document.getElementById("slides-mobile-alert").style["padding-bottom"] = "0%";
 	}
 }

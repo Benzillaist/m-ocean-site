@@ -843,3 +843,7 @@ ul li ul li {
 	color: #000000;
 	text-decoration: underline;
 }
+
+#slides-mobile-alert {
+	font-size: 0px;
+}
