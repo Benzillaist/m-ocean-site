@@ -1,27 +1,137 @@
 <!doctype html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<title>Workshop 1: DATE HERE</title>
-		<link href="style.css" rel="stylesheet" type="text/css">
+		<title>MOCEAN </title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
 		<script src="scripts.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js"></script>
-<!--<script src="jQueryAssets/jquery-1.11.1.min.js"></script>-->
-<!--		<script src="jQueryAssets/jquery-ui-effects.custom.min.js"></script>-->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-		
-		<style type="text/css">
-			/* ============ desktop view ============ */
-			@media all and (min-width: 992px) {
-				.navbar .nav-item .dropdown-menu{ display: none; }
-				.navbar .nav-item:hover .nav-link{   }
-				.navbar .nav-item:hover .dropdown-menu{ display: block; }
-				.navbar .nav-item .dropdown-menu{ margin-top:0; }
-			}	
-			/* ============ desktop view .end// ============ */
-		</style>
-		
 	</head>
 	<body>
+		<div id="root">
+			<div class="left-block">
+				<div class="block-header" id="hleft"></div>
+				<div class="block-footer"></div>
+			</div>
+			<div class="site-info">
+				<div class="header-container" id="header-container">
+					<img src="images/cloud-header.jpg" alt="Cloud Header" id="cloud-header">
+					<div class="header-navbar" id="hcenter">
+						<div class="header-left" href="proposal-summary.html">
+							<h1 href="index.html">
+								<a href="index.html">
+									MOCEAN
+								</a>
+							</h1>
+						</div>
+						<ul role="navigation" class="header-dropdowns" id="header-dropdowns">
+							<li class="dropdown-container"><a aria-haspopup="true" class="dropdown-container-text">Proposal</a>
+								<ul class="dropdown" aria-label="submenu">
+									<li><a href="proposal-summary.html">Project Summary</a></li>
+									<div class="gray-bar"></div>
+									<li><a href="Documents/Project-Description.pdf">Project Description (PDF)</a></li>
+									<div class="gray-bar"></div>
+									<li><a href="participant-organizations.html">Participant Organization</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-container"><a aria-haspopup="true" class="dropdown-container-text">Workshops</a>
+								<ul class="dropdown" aria-label="submenu">
+									<li><a href="workshop-1.html">Workshop 1: 5/16/22</a></li>
+									<div class="gray-bar"></div>
+									<li><a href="workshop-2.html">Workshop 2: 1/6/23</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-container"><a aria-haspopup="true" class="dropdown-container-text">People</a>
+								<ul class="dropdown" aria-label="submenu">
+									<li><a href="key-personnel.html">Meet the Team</a></li>
+									<div class="gray-bar"></div>
+									<li><a href="contact-us.html">Contact Us</a></li>
+								</ul>
+							</li>
+						</ul>
+						<div class="header-right" id="header-text-right" href="contact-us.html" onclick="window.location='contact-us.html';">
+							<h2>
+								Contact us
+							</h2>
+						</div>
+					</div>
+					<div class="white-spacer"></div>
+				</div>
+				<div class="body-container" id="body">
+					<div class="workshop-vid-embed">
+						<h2 class="subject-title">
+							Workshop: Interaction between Monopiles and the Local Ecosystem
+						</h2>
+						<div class="video-wrapper">
+							<iframe class="video" width="94%" height="" src="https://www.youtube.com/embed/yM-iWLXzasY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+					</div>
+					<div class="workshop-text">
+						<h2 class="subject-title">Workshop Summary</h2>
+						<p class="subject-description">In this workshop we... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta nunc eu arcu auctor, id cursus eros tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque rutrum hendrerit dui, ac ullamcorper lacus convallis eu. Maecenas gravida sem pretium, pellentesque elit rhoncus, euismod orci. Aenean pretium et enim ac ultricies.</p>
+					</div>
+					<div class="deep-blue-bar"></div>
+					<div class="slides-embed">
+						<h2 class="subject-title">Slides in presentation</h2>
+						<iframe class="slides" src="Workshops/Workshop-5-16-2022/Workshop 2 for BOEM  - Marine Ecosystems Final Slides PDF.pdf" width="94%" height="600vmin">
+						</iframe>
+					</div>
+					<div class="deep-blue-bar"></div>
+					<div class="related-files">
+						<h2 class="subject-title">
+							Additional Files
+						</h2>
+						<div class="related-file">
+							<a class="file-title" href="Workshops/Workshop-5-16-2022/Workshop 2 for BOEM  - Marine Ecosystems Final Slides PDF.pdf" download="Workshop 1 Slideshow: Interaction between Monopiles and the Local Ecosystem.pdf">
+								Workshop 1 Slideshow: Interaction between Monopiles and the Local Ecosystem
+							</a>
+						</div>
+						<div class="related-file">
+							<a class="file-title" href="Workshops/Workshop-5-16-2022/Workshop 2 Nature Inclusive Design Presentation Timeline and Abstracts.pdf" download="Workshop 1 Presentation Timeline and Abstracts.pdf">
+								Workshop 1 Presentation Timeline and Abstracts
+							</a>
+						</div>
+						<div class="related-file">
+							<a class="file-title" href="Workshops/Workshop-5-16-2022/Workshop 2 Results of Online Survey.pdf" download="Workshop 1 Results of Online Survey.pdf">
+								Workshop 1 Results of Online Survey
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-container">
+					<div class="white-spacer"></div>
+					<div class="footer-contents">
+						<div class="footer-left">
+							<p>
+								©MOCEAN
+							</p>
+							<p class="social-site">
+								Email:
+								[INSERT EMAIL HERE]
+							</p>
+						</div>
+						<div class="footer-right">
+							<p>
+								Follow us on:
+							</p>
+							<div class="social-flex">
+								<p class="social-site">
+									Facebook
+								</p>
+								<p class="social-site">
+									Twitter
+								</p>
+								<p class="social-site">
+									Youtube
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="right-block">
+				<div class="block-header" id="hright"></div>
+				<div class="block-footer"></div>
+			</div>
+		</div>
 	</body>
 </html>

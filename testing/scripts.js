@@ -95,9 +95,11 @@ var activePersonID = -1;
 
 function handlePersonRequest(ele) {
 	
-//	alert("test");
 	var requestAnswerID = "a" + ele.id;
 	var activeAnswerID = "a" + activePersonID;
+	
+	var requestArrowID = "arr" + ele.id;
+	var activeArrowID = "arr" + activePersonID;
 	
 	if(ele.id == activePersonID) {
 		// shrink active info panel
@@ -105,6 +107,9 @@ function handlePersonRequest(ele) {
 		document.getElementById(activeAnswerID).style["font-size"] = "0px";
 		document.getElementById(activeAnswerID).style["visibility"] = "hidden";
 		document.getElementById(activeAnswerID).style["border"] = "none";
+		
+		//changes the new arrow from pointing right to left
+		document.getElementById(activeArrowID).classList.replace("right", "left");
 		
 		// resets the active person as no info panels will be open
 		activePersonID = -1;
@@ -115,20 +120,31 @@ function handlePersonRequest(ele) {
 		document.getElementById(activeAnswerID).style["visibility"] = "hidden";
 		document.getElementById(activeAnswerID).style["border"] = "none";
 		
+		//changes the new arrow from pointing right to left
+		document.getElementById(activeArrowID).classList.replace("right", "left");
+		
 		// expand new info panel
 		document.getElementById(requestAnswerID).style["min-width"] = Math.max(Math.min(window.innerWidth, 1000)-301, 295) + "px";
-		document.getElementById(requestAnswerID).style["font-size"] = "16px";
+		document.getElementById(requestAnswerID).style["font-size"] = "14px";
 		document.getElementById(requestAnswerID).style["visibility"] = "visible";
-		document.getElementById(requestAnswerID).style["border"] = "1px blue solid";
+		document.getElementById(requestAnswerID).style["border"] = "3px #0058ab solid";
+		document.getElementById(requestAnswerID).style["border-radius"] = "10px";
+		
+		//changes the new arrow from pointing left to right
+		document.getElementById(requestArrowID).classList.replace("left", "right");
 		
 		// sets the active person to the element that requested the info
 		activePersonID = ele.id;
 	} else {
 		// expand new info panel
 		document.getElementById(requestAnswerID).style["min-width"] = Math.max(Math.min(window.innerWidth, 1000)-306, 295) + "px";
-		document.getElementById(requestAnswerID).style["font-size"] = "16px";
+		document.getElementById(requestAnswerID).style["font-size"] = "14px";
 		document.getElementById(requestAnswerID).style["visibility"] = "visible";
-		document.getElementById(requestAnswerID).style["border"] = "1px blue solid";
+		document.getElementById(requestAnswerID).style["border"] = "3px #0058ab solid";
+		document.getElementById(requestAnswerID).style["border-radius"] = "10px";
+		
+		//changes the new arrow from pointing left to right
+		document.getElementById(requestArrowID).classList.replace("left", "right");
 		
 		// sets the active person to the element that requested the info
 		activePersonID = ele.id;
