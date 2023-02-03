@@ -155,11 +155,57 @@ function handlePersonRequest(ele) {
 }
 
 function tellMobile() {
-	if(window.innerWidth <= 600) {
-		document.getElementById("slides-mobile-alert").style["font-size"] = "16px";
-		document.getElementById("slides-mobile-alert").style["padding-bottom"] = "3%";
+	if(window.innerWidth <= 810) {
+		if(location.href.split("/").slice(-1)[0] == "participant-organizations.html") {
+			document.getElementById("ol1").style["border-bottom"] = "1px gray solid";
+			document.getElementById("ot1").style["width"] = "auto";
+			
+			
+			document.getElementById("ol2").style["border-bottom"] = "1px gray solid";
+			document.getElementById("ot2").style["width"] = "auto";
+			
+			
+			document.getElementById("ol3").style["border-bottom"] = "1px gray solid";
+			document.getElementById("ot3").style["width"] = "auto";
+		}
 	} else {
-		document.getElementById("slides-mobile-alert").style["font-size"] = "0px";
-		document.getElementById("slides-mobile-alert").style["padding-bottom"] = "0%";
+		if(location.href.split("/").slice(-1)[0] == "participant-organizations.html") {
+			document.getElementById("ol1").style["border-bottom"] = "none";
+			document.getElementById("ot1").style["width"] = "calc(100% - 402px)";
+			
+			document.getElementById("ol2").style["border-bottom"] = "none";
+			document.getElementById("ot2").style["width"] = "calc(100% - 402px)";
+			
+			document.getElementById("ol3").style["border-bottom"] = "none";
+			document.getElementById("ot3").style["width"] = "calc(100% - 402px)";
+		}
+	}
+	
+	if(window.innerWidth <= 600) {
+		
+		if(location.href.split("/").slice(-1)[0] == "workshop-1.html" || location.href.split("/").slice(-1)[0] == "workshop-2.html") {
+			document.getElementById("slides-mobile-alert").style["font-size"] = "16px";
+		document.getElementById("slides-mobile-alert").style["padding-bottom"] = "3%";
+		}
+		
+		if(location.href.split("/").slice(-1)[0] == "participant-organizations.html") {
+			document.getElementById("ol1").style["border-right"] = "none";
+			document.getElementById("ol2").style["border-right"] = "none";
+			document.getElementById("ol3").style["border-right"] = "none";
+		}
+		
+	} else {
+		
+		if(location.href.split("/").slice(-1)[0] == "workshop-1.html" || location.href.split("/").slice(-1)[0] == "workshop-2.html") {
+			document.getElementById("slides-mobile-alert").style["font-size"] = "0px";
+			document.getElementById("slides-mobile-alert").style["padding-bottom"] = "0%";
+		}
+		
+		if(location.href.split("/").slice(-1)[0] == "participant-organizations.html") {
+			document.getElementById("ol1").style["border-right"] = "1px gray solid";
+			document.getElementById("ol2").style["border-right"] = "1px gray solid";
+			document.getElementById("ol3").style["border-right"] = "1px gray solid";
+		}
 	}
 }
+
