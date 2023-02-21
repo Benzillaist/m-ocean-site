@@ -651,13 +651,16 @@ ul li ul li {
 	position: relative;
 	object-fit: cover;
 	width: 175px;
-	height: auto;
+	height: 175px;
+/*	height: auto;*/
 	vertical-align: middle;
 	align-content: center;
 	align-self: center;
 	align-items: center;
 	border: 3px #0058ab solid;
 	border-radius: 88px;
+	top: 0px;
+	object-position: top;
 }
 
 .person-text {
@@ -673,7 +676,8 @@ ul li ul li {
 	color: #0058ab;
 	font-weight: 600;
 	font-size: 23px;
-	font-family: Dosis,"Open Sans",sans-serif
+	font-family: Dosis,"Open Sans",sans-serif;
+	text-align: center;
 }
 
 .bio-bar {
@@ -685,7 +689,7 @@ ul li ul li {
 }
 
 .person-institutuion {
-	width: 200px;
+	width: 165px;
 	margin-top: 3px;
 	margin-bottom: 3px;
 	padding-left: 5px;
@@ -694,6 +698,20 @@ ul li ul li {
 	font-weight: 600;
 	font-size: 13px;
 	font-family: Dosis,"Open Sans",sans-serif;
+	text-align: center;
+}
+
+.person-field {
+	width: 165px;
+	margin-top: 10px;
+	margin-bottom: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #37404d;
+	font-weight: 400;
+	font-size: 13px;
+	font-family: Dosis,"Open Sans",sans-serif;
+	text-align: center;
 }
 
 .person-learn-more {
@@ -783,6 +801,11 @@ ul li ul li {
 	font-weight: 100;
 /*	font-size: 13px;*/
 	font-family: Dosis,"Open Sans",sans-serif
+}
+
+.answer-text-section {
+	padding-top: 10px;
+	padding-bottom: 10px !important;
 }
 
 /*WORKSHOP STYLE*/
@@ -1013,4 +1036,8 @@ ul li ul li {
 .org-description {
 	padding: 0px;
 	margin: 15px;
+}
+
+.bold {
+	font-weight: 600;
 }

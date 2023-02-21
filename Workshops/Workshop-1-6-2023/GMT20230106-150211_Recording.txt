@@ -1,0 +1,99 @@
+00:31:29	Michelle Cho:	Hi-
+00:31:39	John D. DeFrancisci:	Good morning everyone!I am John DeFrancisci. I am a PhD Student at Tufts University working under Dan Kuchma.Thank you for your time!
+00:31:42	Daphne Munroe:	Daphne Munroe, Associate Professor & Shellfish Ecologist at Rutgers University. Glad to be here!
+00:31:44	Kevin Oye:	Kevin Oye, Tufts, Prof of Practice Innovation and corporate strategy
+00:31:49	Bob Chen:	Bob Chen, Professor and Interim Dean, School for the Environment, UMass Boston. Marine Biogeochemistry, sensors, ocean education, diversity
+00:31:57	Cheryl Kreinbring (she/her/hers):	Hello, everyone! Cheryl Kreinbring, Tufts University, Research Development & Strategic Initiatives
+00:31:58	Michelle Cho:	Michelle Cho, New England Aquarium - Assoc. Director, BalanceBLUE Lab
+00:31:59	Jennifer Downing (she/her):	Hello everyone, Jennifer Downing here from the New Bedford Ocean Cluster. Please contact me at: Jennifer.Downing@nboceancluster.org and newbedfordoceancluster.org
+00:32:00	** Wade Trappe, Rutgers:	Wade Trappe, Associate Dean of Research, School of Engineering, Rutgers University
+00:32:04	Colleen Hansel:	Hi Everyone! I'm Colleen Hansel - a biogeochemist at WHOI.
+00:32:19	Genevra Harker-Klimes (she/her):	Hello.  I'm Genevra Harker-Klimes, working with DOE WETO on offshore wind.
+00:32:20	Betsy Sweet (She/Her/Ella):	Hi! Betsy Sweet from UMass Boston Department of Urban Planning and Community Development
+00:32:27	Nils Bolgen, MassCEC:	Nils Bolgen, MassCEC
+00:32:29	Fara Courtney:	Good morning!  Fara Courtney, Outer Harbor Consulting
+00:32:34	Jason Morson:	Jason Morson, Associate Research Scientist, Rutgers University
+00:32:39	Dianne Deschenes:	Hi everyone, Dianne Deschenes, Research Administrator at Tufts University.
+00:32:39	Lisa Engler (MA CZM):	Lisa Engler, Director, MA Office of Coastal Zone Management
+00:32:40	Dan O'Connell:	Hello I am Dan O'Connell Geotechnical Engineer with BOEM renewable energy
+00:32:44	Lianne Allen-Jacobson:	Lianne Allen-Jacobson, Senior Scientist at INSPIRE - expertise in benthic ecology
+00:32:45	Josh Kohut:	Josh Kohut, Professor and physical oceanographer at the Rutgers University Center for Ocean Observing Leadership
+00:32:46	Chris Baxter (URI):	Chris Baxter, Depts of Ocean/Civil and Environmental Engineering, University of Rhode Island - Good morning!
+00:32:52	Scott Lawton:	Scott Lawton with Dominion Energy doiing environental permitting for CVOW Pilot and Commercial projects
+00:33:00	Aaron Bradshaw:	Aaron Bradshaw, Associate Professor Geotechnical Engineering, Depts. of Civil Engineering and Ocean Engineering, University of Rhode Island
+00:33:03	Maximilian Rudzinsky- Avangrid Renewables:	Max Rudzinsky, Environmental Affairs at Avangrid Renewables
+00:33:06	Kathayoon Khalil, Ph.D.:	Kathayoon Khalil, New England Aquarium
+00:33:15	Grace Caldara:	Grace Caldara, Director, The Center for STEM Diversity at Tufts University
+00:33:24	Mike Whitney:	Hi! I'm Mike Whitney, a physical oceanographer in the Department of Marine Sciences at the University of Connecticut.
+00:33:40	Ben Linville-Engler:	Ben Linville-Engler @ the MassTech Collaborative
+00:33:44	Elise Rapoza:	Elise Rapoza, City of New Bedford
+00:33:47	Zach Nichols:	Zach Nichols, Office of the Vice Provost for Research at Tufts, I work on proposals for large and complex grants
+00:33:55	mburns:	Michael Burns, Massachusetts Maritime Academy. Executive Director, Maritime Center for Responsible Energy.  GWO Training Provider
+00:33:57	anthonysetiadi:	Anthony Setiadi, Chief Consultant at Wood Thilsted
+00:34:06	Jamie Lescinski:	Hi All, Jamie Lescinski, Boskalis US Offshore Renewables
+00:34:10	Mike Pol, ROSA, he/him:	Mike Pol, Research Director, Responsible Offshore Science Alliance
+00:34:29	Jenna Massoud (Rep. Auchincloss):	Jenna Massoud, Senior District Representative for Congressman Jake Auchincloss (MA-04)
+00:34:38	Chris Swan:	Hello all.  Chris Swan, Dean of Undergraduate Education and Associate Professor of CEE in the School of Engineering.  Currently a special advisor to the Provost on DEI efforts.
+00:34:43	sam tully:	Sam Tully - City of Taunton
+00:34:49	Anthony Dvarskas:	Anthony Dvarskas, Regional Biodiversity Lead, Orsted
+00:34:56	Loretta Roberson:	Good morning! Loretta Roberson, Associate Scientist, Marine Biological Laboratory, Woods Hole, MA working on offshore seaweed farming https://www.mbl.edu/research/research-centers/eugene-bell-center/featured-projects/tropical-seaweed-farm-project
+00:35:34	Geoffrey Swain:	Geoff Swain Center for Corrosion and Biofouling Control, Florida Institute of Technology, Melbourne FL.
+00:37:47	Annie Murphy (INSPIRE):	Morning everyone! Annie Murphy, Ecosystem Ecologist at INSPIRE
+00:38:18	Kerrie Wilkins-Yel, PhD (she\her):	Good morning Everyone! Kerrie Wilkins-Yel, Assistant Professor of Psychology at UMass Boston, and Director of Radical Investment in Strategic Solutions towards Equity (RISSE) Consulting, LLC
+00:38:51	Gordon Carr, NBPA:	Good morning! Gordon Carr, Executive Director, New Bedford Port Authority
+00:39:29	Jeanette Davis:	Good morning and Happy New Year! I'm Jeanette Davis, Adjunct Research Professor at Hampton University (www.drjeanettedavis.com)
+00:41:40	iPhone:	Hi everyone, I am Matthew Taylor, CTO of Deepwater Corrosion Services, protecting offshore structures from corrosion https://stoprust.com/asset-solutions/cathodic-protection-for-wind-turbines/
+00:44:07	Matthew Oliver:	Hi, Matt Oliver, Professor of Oceanography, University of Delaware, Robotic Discovery Labs, ORB Lab
+00:47:26	Mike Pol, ROSA, he/him:	If I heard Kevin correctly, I would suggest caution if implying that nature inclusive design in turbine foundations (i.e., artificial reefs) will mitigate the loss of tropical coral reefs.
+00:48:30	Mike Pol, ROSA, he/him:	Otherwise I found the presentation compelling and convincing.
+00:49:58	anthonysetiadi:	Decomm policy is typically to return the seabed as it was, however, with the presence of developed reefs, this may need to be re-looked at
+00:51:06	Elise Rapoza:	So far that's my only concern. Need to make sure you're not creating a permitting nightmare in terms of environmental impacts of decommissioning.
+00:52:51	Rep. David Michel, Stamford CT 146th:	hello everyone, we the state legislators need to help and put in bills throughout new england so we can become the area in the US taling off in Concrete Gravity Base, a much better choice that will help protect the marine environment, and create careers vs jobs...it will help us build a new economy and am not sure what else is out there as real economic developmemt plans. 
+but ensuring we manufacture the footing for the turbines at home.
+00:53:44	Rep. David Michel, Stamford CT 146th:	seems the only plan we have, and a great plan that can be.
+00:55:39	Rep. David Michel, Stamford CT 146th:	David Michel, CT state rep from Stamford, david.michel@cga.ct.gov
+914-843-7545
+00:55:45	Rep. David Michel, Stamford CT 146th:	https://www.ncelenviro.org/articles/states-continue-efforts-to-advance-offshore-wind-implementation/
+01:01:49	Jeremiah Hernandez, EforAll:	jeremiah@eforall.org
+01:04:44	Matthew Oliver:	Biodiversity (species richness) will most likely go up with new structures in the water, but there will be winners and losers.
+01:09:22	Cheryl Kreinbring (she/her/hers):	Please visit our MOCEAN Jamboard to leave comments and foster discussions (beginning on slide 3)! The link will remain live after our webinar.    https://jamboard.google.com/d/1yvORwO81Tl9FRK75WMaxOU_F_s9_3bAi_6hxjK70rbI/edit?usp=sharing
+01:13:42	Jamie Lescinski:	Dan, how important is it to this NSF program to include applications within the program (in essence demonstration of concepts)?
+01:24:43	Jamie Lescinski:	I suggest to consider a large MW Turbine for Task 4 -> 20MW since this is where the industry is expected to move
+01:25:11	Jamie Lescinski:	* sorry, larger in place of large
+01:25:17	Satsuki:	Any consideration of the high carbon intensity of concrete?
+01:29:28	Jamie Lescinski:	can considerations be included of using the windfarms as marine reserves as part of CP-3?
+01:31:40	Betsy Sweet (She/Her/Ella):	I have to jump off but wanted to say that the tech innovation is amazing and exciting. That said the ability to do this in a way that is linked to justice, equity, and repair is what makes the whole project very innovative! It is worth noting that the way this will happen has not been mentioned yet and we have been listening for an hour. I look forward to collaboratively thinking about how we can avoid the past mistakes of science tech that excluded many and in fact hatred many….we have such a great opportunity here!
+01:32:08	Jamie Lescinski:	For CP-4, Objective 3, would it also be possible to consider internships/education elements for students a high school level with the idea to help attract talent into our industry?
+01:32:13	anthonysetiadi:	For CP4, is that for both external and internal of the MP?
+01:35:29	Jamie Lescinski:	For CP-5, Task 2, OffshoreWind4Kids could be an interesting group to work with
+01:36:28	Elise Rapoza:	I feel like a lot of the work of task 3 has already been done. Love the idea of science exhibits in local museums though.
+01:45:51	Cheryl Kreinbring (she/her/hers):	Please visit our MOCEAN Jamboard to leave comments and foster discussions (beginning on slide 3)! The link will remain live after our webinar.    https://jamboard.google.com/d/1yvORwO81Tl9FRK75WMaxOU_F_s9_3bAi_6hxjK70rbI/edit?usp=sharing
+01:46:30	Rep. David Michel, Stamford CT 146th:	A monopile cannot be part of a nature inclusive design..its ignoring the pile driving.
+01:48:11	Matthew Oliver:	Is there a place to see the objectives for each CP group, their hypotheses, and their metrics for success?
+01:48:21	David Ciochetto, RI CRMC:	There is work now on Carbon Absorbing Cement… just saw that work over the holidays.
+01:49:22	Bob Chen:	https://earthshotprize.org/winners-finalists/low-carbon-materials/
+01:50:16	Rep. David Michel, Stamford CT 146th:	There was a lab in Brooklyn working on bio concrete…years ago there were already moving up in stages
+01:50:52	Rep. David Michel, Stamford CT 146th:	We have CT producers already using glass in their concrete making lower carbon concrete..
+01:56:10	John D. DeFrancisci:	Some interesting related work/organization from the Netherlands: https://www.derijkenoordzee.nl/en/And more detail on the new OW tenders in the Netherlands and the focus on environmental impacts: https://english.rvo.nl/news/shell-and-eneco-receive-permit-hollandse-kust-west-site-vi-offshore-wind-farm
+01:57:14	Loretta Roberson:	https://econcretetech.com/
+02:00:15	anthonysetiadi:	Thanks everyone, have to drop out but very interesting initiative
+02:00:29	Chris Swan:	Thanks for this presentation - very interesting and beneficial.  Sorry, but I need to go.
+02:00:48	Matthew Oliver:	Just soaking it all in!
+02:01:21	John D. DeFrancisci:	Hey everyone! The raise hand function in zoom is hidden under reactions.
+02:07:50	Susan Crandall:	Thank you for this presentation and all of your work. I do need to drop off. Will look out for the next steps to weigh in on the proposal.
+02:18:30	Michelle Cho:	Tension and thickness of cables for floating platforms, as well as appropriate depth for those, may not be as much of a risk for right whales as ropes, but yes- we definitely need to bring attention to these issues for these other designs.
+02:20:11	Rep. David Michel, Stamford CT 146th:	The noise mitigation is not sufficient (by far) so we have to be careful with the mitigation talked about by developers.. and if we want to be inclusive and bring diversity and equity, then the concrete, according to tufts ;), will create 30 times the amount of jobs than the monopiles.
+02:22:34	David Ciochetto, RI CRMC:	@David Michel - your arguments also play into the economics of the supply chain and what country supplies the US developement…
+02:24:20	Rep. David Michel, Stamford CT 146th:	You do not say 🙂. I used to sell European intermediate steel from Europe (Sheffield Forgemasters) t forgets in the us and Canada, the largest, and I can tell you we in the US will not be making the steel for monopiles. We will end up rolling it bending stocking it.. no manufacturing..
+02:24:35	Rep. David Michel, Stamford CT 146th:	*forgers
+02:25:15	Rep. David Michel, Stamford CT 146th:	Bending rolling soldering is automated machinery..etc.
+02:26:21	Rep. David Michel, Stamford CT 146th:	That is also why when we look at our newly renovated pier in new London, we get frustrated, it will be a receiving and loading area.  If we renovate a pier to have manufacturing it would look like this (background pic)
+02:28:44	Bob Chen:	Thank you all for your interests, comments, and questions!  Looking forward to working with you all. Have to run to another meeting.
+02:29:03	Rep. David Michel, Stamford CT 146th:	As I am being told North Atlantic RIGHT WHALES have nothing to do w maintaining phytoplankton, NARW s POOP Feeds nutrients to the phytoplankton, and the whale tale movement and other movements bringing it to the surface hey; p it absorb light and photo plankton multiplies after a whale goes through the bank..
+02:29:22	Rep. David Michel, Stamford CT 146th:	Sorry for the typos.
+02:29:48	Loretta Roberson:	For the Netherlands, environmental impact includes positive benefits and so they need to include nature inclusive design and are testing co-location with aquaculture.
+02:30:49	Kerrie Wilkins-Yel, PhD (she\her):	Thank you all! I'll need to head to another meeting. Looking forward to working with everyone!
+02:30:52	Daphne Munroe:	Agree 100% with Kevin
+02:30:54	David Ciochetto, RI CRMC:	Good thought but need to keep the magnitude of mixing in mind from the tale wakes v. The wind stress and tidal boundary mixing. While Krill can have a measurable impact on mixing … I do not think we have the research to make the statement that the whales do.
+02:31:09	Jamie Lescinski:	NL use EMVI scoring systems which include quantification and reporting of technical, financial, environment, and social aspects with most recently very heavy weighting on the env and social aspects in the EMVI scoring system
+02:36:08	Jamie Lescinski:	Thanks Dan and Fara! thanks everyone!

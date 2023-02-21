@@ -1,0 +1,689 @@
+<!doctype html>
+<html>
+	<head>
+		<title>MOCEAN </title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script src="scripts.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js"></script>
+	</head>
+	<body>
+		<div id="root">
+			<div class="left-block">
+				<div class="block-header" id="hleft"></div>
+				<div class="block-footer"></div>
+			</div>
+			<div class="site-info">
+				<div class="header-container" id="header-container">
+					<img src="images/cloud-header.jpg" alt="Cloud Header" id="cloud-header">
+					<div class="header-navbar" id="hcenter">
+						<div class="header-left" href="proposal-summary.html">
+							<h1 href="index.html">
+								<a href="index.html">
+									MOCEAN
+								</a>
+							</h1>
+						</div>
+						<ul role="navigation" class="header-dropdowns" id="header-dropdowns">
+							<li class="dropdown-container"><a aria-haspopup="true" class="dropdown-container-text">Proposal</a>
+								<ul class="dropdown" aria-label="submenu">
+									<li><a href="Documents/Project-Summary.pdf">Project Summary (PDF)</a></li>
+									<div class="gray-bar"></div>
+									<li><a href="Documents/Project-Description.pdf">Project Description (PDF)</a></li>
+									<div class="gray-bar"></div>
+									<li><a href="participant-organizations.html">Participant Organization</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-container"><a aria-haspopup="true" class="dropdown-container-text">Workshops</a>
+								<ul class="dropdown" aria-label="submenu">
+									<li><a href="workshop-1.html">Workshop 1: 5/16/22</a></li>
+									<div class="gray-bar"></div>
+									<li><a href="workshop-2.html">Workshop 2: 1/6/23</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-container"><a aria-haspopup="true" class="dropdown-container-text">People</a>
+								<ul class="dropdown" aria-label="submenu">
+									<li><a href="key-personnel.html">Meet the Team</a></li>
+									<div class="gray-bar"></div>
+									<li><a href="contact-us.html">Contact Us</a></li>
+								</ul>
+							</li>
+						</ul>
+						<div class="header-right" id="header-text-right" href="contact-us.html" onclick="window.location='contact-us.html';">
+							<h2>
+								Contact us
+							</h2>
+						</div>
+					</div>
+					<div class="white-spacer"></div>
+				</div>
+				<div class="body-container" id="body">
+					<div class="home-img-container">
+						<img src="images/Zoom-call-laughter.jpg" alt="People laughing (PLACEHOLDER)" style="img"/>
+						<div class="home-img-overlay">
+							<h2>
+								Meet the team:
+							</h2>
+								<p>
+									We are a group of 40 people who are deeply invested and interested in making this project a reality. We would love for you to meet us, so scroll down to learn more!
+								</p>
+						</div>
+					</div>
+					<div class="deep-blue-bar"></div>
+					<div class="people-container">
+						
+<!--
+						<div class="person-container">
+							<div class="person">
+								<img src="images/Key-Personnel/Daniel-Kuchma-full.jpg" alt="Daniel-Kuchma" class="person-image">
+								<div class="person-text">
+									<h2 class="person-name">Daniel Kuchma</h2>
+									<div class="bio-bar"></div>
+									<p class="person-institutuion">Lead Organization, Tufts University</p>
+									<p class="person-field"></p>
+									<p class="person-learn-more" onclick="handlePersonRequest(this)" id="0">
+										<b>Learn more</b>
+										<i class="arrow left" id="arr0"></i>
+									</p>
+								</div>
+							</div>
+							<div class="answer-container" id="a0">
+								<div class="answer-question"></div>
+								<div class="answer-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sollicitudin congue velit, eget malesuada nulla faucibus sed. Donec commodo dictum purus. Quisque in dui id mi dictum blandit a vel augue. Sed vitae egestas nisl. Sed lorem felis, auctor non erat vel, venenatis placerat leo. Aliquam condimentum quis enim ac vulputate. 
+								</div>
+							</div>
+						</div>
+-->
+						
+						<div class="person-container">
+							<div class="person">
+								<img src="images/Key-Personnel/Deidre-Gibson.jpg" alt="Deidre-Gibson" class="person-image">
+								<div class="person-text">
+									<h2 class="person-name">Deidre Gibson</h2>
+									<div class="bio-bar"></div>
+									<p class="person-institutuion">Hampton University</p>
+									<p class="person-field">Biological Oceanography, trophic ecology, zooplankton population dynamics </p>
+									<p class="person-learn-more" onclick="handlePersonRequest(this)" id="0">
+										<b>Learn more</b>
+										<i class="arrow left" id="arr0"></i>
+									</p>
+								</div>
+							</div>
+							<div class="answer-container" id="a0">
+								<div class="answer-question"></div>
+								<div class="answer-text">
+									<div class="answer-text-section">
+										<strong class="bold">Bio: </strong>Dr. Deidre Gibson is the University Endowed Professor and Chair of the Department of Marine and Environmental Science at Hampton University.  She earned her B.S. in Oceanography from the University of Washington, and Ph.D. in Marine Science from the University of Georgia/Skidaway Institute of Oceanography. She is a biological oceanographer with research interests centered on the trophic ecology, reproductive biology, and population dynamics of zooplankton, but more specifically, gelatinous zooplankton, and currently oyster restoration. While at Hampton University, she has served as PI on several NSF and NOAA grants that continue to train the next generation of African American and LatinX marine scientists.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Why MOCEAN: </strong>To monitor marine life around monopiles.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Broad Question: </strong>What are biotic and abiotic factors that influence benthic community structure and function on the monopile foundations and surrounding seafloor?</div>
+									<div class="answer-text-section">
+										<strong class="bold">Focused Question: </strong>What are the appropriate technologies used to monitor the shifts in the benthic community function and structure?
+                  </div>
+								</div>
+							</div>
+						</div>
+            <div class="person-container">
+							<div class="person">
+								<img src="images/Key-Personnel/Rob-Griffin.jpg" alt="Rob-Griffin" class="person-image">
+								<div class="person-text">
+									<h2 class="person-name">Rob Griffin</h2>
+									<div class="bio-bar"></div>
+									<p class="person-institutuion">UMass Dartmouth</p>
+									<p class="person-field">Environmental Economics</p>
+									<p class="person-learn-more" onclick="handlePersonRequest(this)" id="1">
+										<b>Learn more</b>
+										<i class="arrow left" id="arr1"></i>
+									</p>
+								</div>
+							</div>
+							<div class="answer-container" id="a1">
+								<div class="answer-question"></div>
+								<div class="answer-text">
+									<div class="answer-text-section">
+										<strong class="bold">Bio: </strong>Rob Griffin is a research assistant professor at UMass Dartmouth in the School for Marine Science and Technology. He also holds a joint appointment as an economist at the Natural Capital Project at Stanford University. His expertise is in resource and environmental economics with a focus on coastal and ocean systems. This work is concentrated on two main themes: coastal and ocean planning and how to make decisions when there are conflicts/synergies between uses; and measuring the often intangible ecosystem service values of coastal and ocean habitats.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Why MOCEAN: </strong>To ensure our offshore wind energy development plans meet our collective societal objectives.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Broad Question: </strong>What are our collective societal objectives for wind energy development?</div>
+									<div class="answer-text-section">
+										<strong class="bold">Focused Question: </strong>How do offshore wind energy leasing procedures and policies affect the the broader economy?
+                  </div>
+								</div>
+							</div>
+						</div>
+            <div class="person-container">
+							<div class="person">
+								<img src="images/Key-Personnel/Kevin-Oye.png" alt="Kevin-Oye" class="person-image">
+								<div class="person-text">
+									<h2 class="person-name">Kevin Oye</h2>
+									<div class="bio-bar"></div>
+									<p class="person-institutuion">Tufts University</p>
+									<p class="person-field">Innovation, Entrepreneurship,&amp Leadership Development</p>
+									<p class="person-learn-more" onclick="handlePersonRequest(this)" id="2">
+										<b>Learn more</b>
+										<i class="arrow left" id="arr2"></i>
+									</p>
+								</div>
+							</div>
+							<div class="answer-container" id="a2">
+								<div class="answer-question"></div>
+								<div class="answer-text">
+									<div class="answer-text-section">
+										<strong class="bold">Bio: </strong>Kevin Oye is the Executive Director of the Tufts Gordon Institute, the Director of the M.S. in Innovation and Management Program, and a Professor of the Practice in the School of Engineering. Since joining Tufts in 2017, his team has launched new undergraduate and graduate programs in innovation, entrepreneurship, management and leadership, growing the number of students directly served to over 1000 each year. Kevin joined Tufts with over 35 years of experience leading product development, corporate strategy, and merger and acquisition teams in both startups as well as public companies in the networking/telecommunications industry. He currently mentors and advises at the non-profit EforAll business accelerator, helping local underserved communities grow through entrepreneurship.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Why MOCEAN: </strong>To foster new innovation ecosystem development in underserved communities.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Broad Question: </strong>How might we build new innovation ecosystems particularly in underserved communities to co-create new blue tech innovations that expand new job opportunities across the skill spectrum?</div>
+									<div class="answer-text-section">
+										<strong class="bold">Focused Question: </strong>How might we tap the wisdom and lived experiences of the local coastal communities as we create new innovation ecosystems?
+                  </div>
+								</div>
+							</div>
+						</div>
+            <div class="person-container">
+							<div class="person">
+								<img src="images/Key-Personnel/Colleen-Hansel.jpg" alt="Colleen-Hansel" class="person-image">
+								<div class="person-text">
+									<h2 class="person-name">Colleen Hansel</h2>
+									<div class="bio-bar"></div>
+									<p class="person-institutuion">Woods Hole Oceanographic Institution</p>
+									<p class="person-field">Ocean Biogeochemistry, Materials and Sensor Engineering, Health Monitoring</p>
+									<p class="person-learn-more" onclick="handlePersonRequest(this)" id="3">
+										<b>Learn more</b>
+										<i class="arrow left" id="arr3"></i>
+									</p>
+								</div>
+							</div>
+							<div class="answer-container" id="a3">
+								<div class="answer-question"></div>
+								<div class="answer-text">
+									<div class="answer-text-section">
+										<strong class="bold">Bio: </strong>Colleen Hansel is a Senior Scientist of ocean biogeochemistry at Woods Hole Oceanographic Institution (WHOI). She earned her PhD at Stanford University with an emphasis on the microbial processes responsible for cycling and mineralization of metals. Before WHOI, she was a professor at Harvard University where she primarily worked in the field of microbial geochemistry in natural and engineered ecosystems. She is the President of the Biogeosciences section of the American Geophysical Union. She is conducting projects from the Bureau of Ocean and Energy Management and the Massachusetts Clean Energy Center on the impact of corrosion and fatigue design of steel and concrete support structures on the growth and biodiversity of marine life. She is also working with the United States Virgin Islands to optimize materials engineering to enhance biodiversity associated with artificial coral reefs.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Why MOCEAN: </strong>To enhance biodiversity associated with offshore wind structures.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Broad Question: </strong>How do we build sustainable wind farms that provide coupled ecosystem services?</div>
+									<div class="answer-text-section">
+										<strong class="bold">Focused Question: </strong>How do we optimize the chemistry and mineralogy of offshore wind materials to promote recruitment and growth of keystone species?
+                  </div>
+								</div>
+							</div>
+						</div>
+            <div class="person-container">
+							<div class="person">
+								<img src="images/Key-Personnel/Aaron-Bradshaw.png" alt="Aaron-Bradshaw" class="person-image">
+								<div class="person-text">
+									<h2 class="person-name">Aaron Bradshaw</h2>
+									<div class="bio-bar"></div>
+									<p class="person-institutuion">University of Rhode Island</p>
+									<p class="person-field">Geotechnical Engineering, Soil-Structure Interaction</p>
+									<p class="person-learn-more" onclick="handlePersonRequest(this)" id="4">
+										<b>Learn more</b>
+										<i class="arrow left" id="arr4"></i>
+									</p>
+								</div>
+							</div>
+							<div class="answer-container" id="a4">
+								<div class="answer-question"></div>
+								<div class="answer-text">
+									<div class="answer-text-section">
+										<strong class="bold">Bio: </strong>Aaron Bradshaw is an Associate Professor in the Department of Civil and Environmental Engineering at the University of Rhode Island (URI) and has been at URI since 2011. He also holds a limited joint appointment in the Department of Ocean Engineering. Dr. Bradshaw earned his B.S. in Civil Engineering in 1996 from Tufts University, his M.S. in Ocean Engineering in 1999 from URI, and his PhD in Civil Engineering in 2006 from URI. He worked as a geotechnical engineering consultant at Hart Crowser in Seattle, WA from 2000 to 2003 and is a registered professional engineer in Rhode Island. Dr. Bradshawâ€™s research interests are in marine geotechnics including soil-structure interaction and soil liquefaction.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Why MOCEAN: </strong>To enable a data-driven design and decision making framework.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Broad Question: </strong>How would the selection and design of foundations change if the length of lease changed from the current practice (25-35 years) to 60 or even 100 years?</div>
+									<div class="answer-text-section">
+										<strong class="bold">Focused Question: </strong>How does time influence the soil bearing capacity and accumulated displacements of gravity-based structures?
+                  </div>
+								</div>
+							</div>
+						</div>
+            <div class="person-container">
+							<div class="person">
+								<img src="images/Key-Personnel/Jessica-Redfern.png" alt="Jessica-Redfern" class="person-image">
+								<div class="person-text">
+									<h2 class="person-name">Jessica Redfern</h2>
+									<div class="bio-bar"></div>
+									<p class="person-institutuion">Ocean Conservation Science, Anderson Cabot Center for Ocean Life, New England Aquarium</p>
+									<p class="person-field">Conversation biology, marine mammals, habitat modeling, spatially explicit risk assessment</p>
+									<p class="person-learn-more" onclick="handlePersonRequest(this)" id="5">
+										<b>Learn more</b>
+										<i class="arrow left" id="arr5"></i>
+									</p>
+								</div>
+							</div>
+							<div class="answer-container" id="a5">
+								<div class="answer-question"></div>
+								<div class="answer-text">
+									<div class="answer-text-section">
+										<strong class="bold">Bio: </strong>Dr. Jessica Redfern is the Associate Vice President of Ocean Conservation Science at the New England Aquarium. When Jessica joined the New England Aquarium in 2019, she led efforts to create the Spatial Ecology, Mapping, and Assessment Program (EcoMap) and she still works closely with this program.Â The goal of this program is to assess risk to marine species from human use of the ocean and climate change. The program uses innovative monitoring and modeling techniques to provide a framework for internal and external collaborators to develop solutions to marine conservation challenges.  Examples of the conservation challenges that this program addresses include ship strikes, chronic noise, entanglement, and minimizing impacts of wind energy.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Why MOCEAN: </strong>To incorporate marine mammals in the decision making framework.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Broad Question: </strong>Can we develop a framework to explore the potentials effects of wind energy development on marine mammals?</div>
+									<div class="answer-text-section">
+										<strong class="bold">Focused Question: </strong>Can we build habitat models for marine mammal using environmental variables relevant to understanding potential changes caused by wind energy development?
+                  </div>
+								</div>
+							</div>
+						</div>
+            <div class="person-container">
+							<div class="person">
+								<img src="images/Key-Personnel/Daniel-Kuchma.jpg" alt="Dan-Kuchma" class="person-image">
+								<div class="person-text">
+									<h2 class="person-name">Dan Kuchma</h2>
+									<div class="bio-bar"></div>
+									<p class="person-institutuion">Tufts University</p>
+									<p class="person-field">Structures, Materials, Design, &amp Modeling</p>
+									<p class="person-learn-more" onclick="handlePersonRequest(this)" id="6">
+										<b>Learn more</b>
+										<i class="arrow left" id="arr6"></i>
+									</p>
+								</div>
+							</div>
+							<div class="answer-container" id="a6">
+								<div class="answer-question"></div>
+								<div class="answer-text">
+									<div class="answer-text-section">
+										<strong class="bold">Bio: </strong>Dan Kuchma is a professor of structural engineering at Tufts University. He earned his PhD at the University of Toronto with an emphasis on the design of Concrete Gravity Base Structures for Oil &amp Gas platforms. He was professor at the University of Illinois for 17 years where he primarily worked in the field of earthquake engineering. He serves on the U.S. building code for concrete structures, chairs a committee on support structures for wind turbines, and has/is conducting projects from the Bureau of Ocean and Energy Management, the Department of Energy, and the Massachusetts Clean Energy Center on the corrosion and fatigue design of steel and concrete support structures, and their potential service as artificial reefs.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Why MOCEAN: </strong>To enable a data-driven design and decision making framework.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Broad Question: </strong>How would the selection and design of foundations change if the length of lease changed from the current practice (25-35 years) to 60 or even 100 years?</div>
+									<div class="answer-text-section">
+										<strong class="bold">Focused Question: </strong>How does the surface texture of concrete affect marine growths and habitat formation?
+                  </div>
+								</div>
+							</div>
+						</div>
+            <div class="person-container">
+							<div class="person">
+								<img src="images/Key-Personnel/Geoff-Swain.jpg" alt="Geoff-Swain" class="person-image">
+								<div class="person-text">
+									<h2 class="person-name">Geoff Swain</h2>
+									<div class="bio-bar"></div>
+									<p class="person-institutuion">Ocean Engineering, Director Center for Corrosion and Biofouling Control, Florida Institute of Technology</p>
+									<p class="person-field">Materials, Corrosion, Cathodic Protection, Biofouling, Ecology, Sustainability, Mariculture</p>
+									<p class="person-learn-more" onclick="handlePersonRequest(this)" id="7">
+										<b>Learn more</b>
+										<i class="arrow left" id="arr7"></i>
+									</p>
+								</div>
+							</div>
+							<div class="answer-container" id="a7">
+								<div class="answer-question"></div>
+								<div class="answer-text">
+									<div class="answer-text-section">
+										<strong class="bold">Bio: </strong>Dr Geoff Swain is Professor of Oceanography and Ocean Engineering and the Director of the Center for Corrosion and Biofouling Control at the Florida Institute of Technology.  He has over 45 years experience in the field of corrosion and biofouling control.  His research is focused on the control and management of corrosion and biofouling in an environmentally sustainable and responsible manner.  The Center is fully staffed, has a laboratory on campus, and static, dynamic and hydrodynamic seawater test facilities. He designed the cathodic protection system for the Living Seas at Disney World, is active in dry dock and underwater inspections of ship hull coatings and cathodic protection systems, and has more recently been developing corrosion control and nature inclusive designs for the foundations of offshore wind turbines.  He has published over 100 refereed articles.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Why MOCEAN: </strong>To apply engineering design to improve the design life, ecology and sustainability of foundations deployed to support offshore wind turbines.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Broad Question: </strong>Which foundation design (monopile, jacket, gravity) will provide the best long-term habitat for marine life?</div>
+									<div class="answer-text-section">
+										<strong class="bold">Focused Question: </strong>How can materials and corrosion control methods be selected to enhance marine life and extend the design life of structures?
+                  </div>
+								</div>
+							</div>
+						</div>
+            <div class="person-container">
+							<div class="person">
+								<img src="images/Key-Personnel/Josh-Kohut.jpg" alt="Josh-Kohut" class="person-image">
+								<div class="person-text">
+									<h2 class="person-name">Josh Kohut</h2>
+									<div class="bio-bar"></div>
+									<p class="person-institutuion">Rutgers University</p>
+									<p class="person-field">Physical Oceanography, &amp Marine Ecology</p>
+									<p class="person-learn-more" onclick="handlePersonRequest(this)" id="8">
+										<b>Learn more</b>
+										<i class="arrow left" id="arr8"></i>
+									</p>
+								</div>
+							</div>
+							<div class="answer-container" id="a8">
+								<div class="answer-question"></div>
+								<div class="answer-text">
+									<div class="answer-text-section">
+										<strong class="bold">Bio: </strong>Josh is currently a professor of oceanography at Rutgers University and a member of the Rutgers University Center for Ocean Observing Leadership. He earned a B.S. in physics from the College of Charleston and a Ph.D. in physical oceanography from Rutgers University. Using networks of ocean observing technologies, his research and extension programs focus on the ocean processes that structure marine ecosystems. His research and education programs range in scope from storm intensity, fisheries, offshore wind off the US coast to environmental studies of polar ecosystems in the coastal waters surrounding Antarctica. He has developed relationships across stakeholder groups to ensure his work is collaborative, relevant, and informs applications, decision-making and management of ocean resources.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Why MOCEAN: </strong>To apply new observations and models to support a new blue fisheries economy that co-exists with offshore wind.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Broad Question: </strong>What are the key oceanographic features that structure marine food webs and how can the understanding of these dynamic habitats inform nature inclusive offshore wind decision making?</div>
+									<div class="answer-text-section">
+										<strong class="bold">Focused Question: </strong>What data driven tools are needed to sustain a future fishery that co-exists with offshore wind?
+                  </div>
+								</div>
+							</div>
+						</div>
+            <div class="person-container">
+							<div class="person">
+								<img src="images/Key-Personnel/Matthew-Oliver.jpg" alt="Matthew-Oliver" class="person-image">
+								<div class="person-text">
+									<h2 class="person-name">Matthew Oliver</h2>
+									<div class="bio-bar"></div>
+									<p class="person-institutuion">University of Delaware</p>
+									<p class="person-field">Biological Oceanography, Remote Sensing, Autonomous Systems</p>
+									<p class="person-learn-more" onclick="handlePersonRequest(this)" id="9">
+										<b>Learn more</b>
+										<i class="arrow left" id="arr9"></i>
+									</p>
+								</div>
+							</div>
+							<div class="answer-container" id="a9">
+								<div class="answer-question"></div>
+								<div class="answer-text">
+									<div class="answer-text-section">
+										<strong class="bold">Bio: </strong>Matthew Oliver is a Biological Oceanographer at the University of Delaware, College of Earth, Ocean and Environment. His primary interest is ocean biogeography. He has studied factors that shape ocean biogeography across multiple scales; from phytoplankton, to fish, to birds. He runs field experiments in the Mid-Atlantic and in Antarctica. He operates the Ocean Exploration, Remote Sensing, and Biogeography Lab, as well as the Robotics Discovery Lab.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Why MOCEAN: </strong> To understand the ecological and oceanographic impacts of wind turbine installation in the Mid-Atlantic.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Broad Question: </strong>How does the installation of monopiles impact the mixing and  productivity of the ocean ecosystem? How do these changes impact the distribution of economically important species over the next decade?</div>
+									<div class="answer-text-section">
+										<strong class="bold">Focused Question: </strong>Will increased mixing from monopiles lead to increased upwelling, and phytoplankton productivity?
+                  </div>
+								</div>
+							</div>
+						</div>
+            <div class="person-container">
+							<div class="person">
+								<img src="images/Key-Personnel/Chris-Baxter.jpg" alt="Chris-Baxter" class="person-image">
+								<div class="person-text">
+									<h2 class="person-name">Chris Baxter</h2>
+									<div class="bio-bar"></div>
+									<p class="person-institutuion">University of Rhode Island</p>
+									<p class="person-field">Geotechnical, Soil Behavior, Structural Health Monitoring</p>
+									<p class="person-learn-more" onclick="handlePersonRequest(this)" id="10">
+										<b>Learn more</b>
+										<i class="arrow left" id="arr10"></i>
+									</p>
+								</div>
+							</div>
+							<div class="answer-container" id="a10">
+								<div class="answer-question"></div>
+								<div class="answer-text">
+									<div class="answer-text-section">
+										<strong class="bold">Bio: </strong>Christopher Baxter is a joint Professor in the Departments of Ocean/Civil and Environmental Engineering at the University of Rhode Island (URI). He has been a member of the URI faculty since 2001 and is a registered professional engineer in Rhode Island. His research expertise is in the areas of marine geotechnics, fundamental soil behavior, coastal resilience, and offshore renewable energy.  He is primarily an experimentalist and has focused much of his research on characterizing unique or difficult soils such as sensitive marine clays in Maine, gassy clays from the North Sea, weakly cemented sands in oil-bearing formations, and non-plastic silts. Dr. Baxter is currently the lead investigator on two projects funded by the Bureau of Safety and Environmental Enforcement (BSEE) to perform structural health monitoring of the Block Island Wind Farm and the Coastal Virginia Offshore Wind Farm.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Why MOCEAN: </strong>To enable a data-driven design and decision making framework.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Broad Question: </strong>How can improved site investigation techniques and technologies reduce the uncertainty in gravity-based foundation design?</div>
+									<div class="answer-text-section">
+										<strong class="bold">Focused Question: </strong>Can Distributed Acoustic Sensing on the seafloor aid in the micrositing of gravity-based offshore wind structures?
+                  </div>
+								</div>
+							</div>
+						</div>
+            <div class="person-container">
+							<div class="person">
+								<img src="images/Key-Personnel/Fara-Courtney.jpg" alt="Fara-Courtney" class="person-image">
+								<div class="person-text">
+									<h2 class="person-name">Fara Courtney</h2>
+									<div class="bio-bar"></div>
+									<p class="person-institutuion">Outer Harbor Consulting</p>
+									<p class="person-field">Policy Analysis, Market Intelligence and Strategic Partnerships in Support of the US Offshore Wind Industry</p>
+									<p class="person-learn-more" onclick="handlePersonRequest(this)" id="11">
+										<b>Learn more</b>
+										<i class="arrow left" id="arr11"></i>
+									</p>
+								</div>
+							</div>
+							<div class="answer-container" id="a11">
+								<div class="answer-question"></div>
+								<div class="answer-text">
+									<div class="answer-text-section">
+										<strong class="bold">Bio: </strong>Fara Courtney, has been a leader in the US offshore wind industry for over 15 years.  She works with industry, policymakers and academia to drive collaboration on industry-enabling issues including transmission, supply chain and understanding the offshore wind-marine ecosystem interface.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Why MOCEAN: </strong>Offshore wind deployment at scale will the biggest intentional anthropogenic change in the coastal ocean in a generation - an essential opportunity to mitigate the ongoing ecosystem damage resulting from warming oceans. MOCEAN will provide a platform for optimizing beneficial impact from this enterprise on marine systems and coastal economies.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Broad Question: </strong>What practices and policies will incentivize an efficient regional, ecosystem-scale approach to offshore wind  development and fishing economies?</div>
+									<div class="answer-text-section">
+										<strong class="bold">Focused Question: </strong>How can we rapidly advance knowledge and innovation in nature inclusive design of offshore wind farms in partnership with existing marine industry?
+                	</div>
+								</div>
+							</div>
+						</div>
+						<div class="person-container">
+							<div class="person">
+								<img src="images/Key-Personnel/Joe-Reustle.jpg" alt="Joe-Reustle" class="person-image">
+								<div class="person-text">
+									<h2 class="person-name">Joe Reustle</h2>
+									<div class="bio-bar"></div>
+									<p class="person-institutuion">Hampton University</p>
+									<p class="person-field">Marine Ecology, community ecology, species- interactions</p>
+									<p class="person-learn-more" onclick="handlePersonRequest(this)" id="12">
+										<b>Learn more</b>
+										<i class="arrow left" id="arr12"></i>
+									</p>
+								</div>
+							</div>
+							<div class="answer-container" id="a12">
+								<div class="answer-question"></div>
+								<div class="answer-text">
+									<div class="answer-text-section">
+										<strong class="bold">Bio: </strong>Joe Reustle is a marine ecologist and the PI of the Reustle Estuarine Ecology Lab (REEL) as a first year Assistant Professor of Marine and Environmental Science at Hampton University (HU). His research investigates species-interactions and how they influence community dynamics and assemblages.Â Specifically, Joeâ€™s research focuses on community-level consequences for shifts in species-interactions due to (1) climate change and environmental perturbations, (2) changes in predator/parasite field, and (3) changes in sensory regime and behavior. Joeâ€™s research intersects with and has expanded into habitat restoration and assessment where he is interested in restoring habitat and ecosystem services.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Why MOCEAN: </strong>To assess artificial reef community dynamics on monopiles and build student research and engagement opportunities in marine ecology, blue tech, and renewable energy.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Broad Question: </strong>What is the relative importance of biotic and abiotic factors in the structure and function of artificial monopile â€˜reefâ€™ communities and surrounding habitat?</div>
+									<div class="answer-text-section">
+										<strong class="bold">Focused Question: </strong>To identify and field-test tractable methodologies in assessing community structure and function on remote, artificial reef structures?
+                  </div>
+								</div>
+							</div>
+						</div>
+            <div class="person-container">
+							<div class="person">
+								<img src="images/Key-Personnel/Grace-Caldara.jpg" alt="Grace-Caldara" class="person-image">
+								<div class="person-text">
+									<h2 class="person-name">Grace Caldara</h2>
+									<div class="bio-bar"></div>
+									<p class="person-institutuion">Tufts University</p>
+									<p class="person-field">Center of STEM Diversity, DEIJ, Educational Outreach</p>
+									<p class="person-learn-more" onclick="handlePersonRequest(this)" id="13">
+										<b>Learn more</b>
+										<i class="arrow left" id="arr13"></i>
+									</p>
+								</div>
+							</div>
+							<div class="answer-container" id="a13">
+								<div class="answer-question"></div>
+								<div class="answer-text">
+									<div class="answer-text-section">
+										<strong class="bold">Bio: </strong>Grace Caldara is the Director of the Center for STEM Diversity at Tufts University. Her center works to recruit, retain and foster a sense of belonging for under-represented students in STEM through STEM Ambassador outreach program to local school districts, undergraduate and graduate student programing and faculty and departmental support. Prior to Tufts University, she was the Senior Manager of Learning and Development at Supermajority, a non-profit organization working to advance gender equity through education, training, storytelling and activism. During her time at Supermajority she developed and facilitated a nationwide leadership program, run annually, in which she taught thousands of young women of color values-based leadership strategies. Additionally, she managed the 2.9 million member Pantsuit Nation community focused on elevating personal stories and lived experiences from women from across the country. She earned her PhD at the University of California at Irvine with an emphasis on Acyl-CoA Carboxylases and Polyketide Synthases.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Why MOCEAN: </strong>To introduce and inspire the next generation STEM students to the growing blue tech industry.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Broad Question: </strong></div>
+									<div class="answer-text-section">
+										<strong class="bold">Focused Question: </strong>
+                   </div>
+								</div>
+							</div>
+						</div>
+            <div class="person-container">
+							<div class="person">
+								<img src="images/Key-Personnel/Mike-Pol.jpg" alt="Mike-Pol" class="person-image">
+								<div class="person-text">
+									<h2 class="person-name">Mike Pol</h2>
+									<div class="bio-bar"></div>
+									<p class="person-institutuion">Responsible Offshore Science Alliance</p>
+									<p class="person-field">Fisheries, Wind Impacts, Networking</p>
+									<p class="person-learn-more" onclick="handlePersonRequest(this)" id="14">
+										<b>Learn more</b>
+										<i class="arrow left" id="arr14"></i>
+									</p>
+								</div>
+							</div>
+							<div class="answer-container" id="a14">
+								<div class="answer-question"></div>
+								<div class="answer-text">
+									<div class="answer-text-section">
+										<strong class="bold">Bio: </strong>Mike Pol is the research director at the Responsible Offshore Science Alliance. He earned his PhD at the School for Marine Science and Technology, University of  Massachusetts Dartmouth with an emphasis on the sustainable harvest of Acadian redfish. He was leader of Conservation Engineering at the Massachusetts Division of Marine Fisheries for 17 years. He serves on the steering committees for a NMFS-RODA project to develop an Integrated Ecosystem Assessment for the Gulf of Maine to support coexistence of marine uses and a the BOEM-NMFS Survey Simulation Experimentation and Evaluation Project to adapt resources surveys to preclusion and other effects of wind development. He serves on the Mid-Atlantic/New England FMC Northeast Trawl Advisory Panel and chairs an ICES working group on size and species selectivity in fishing gears.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Why MOCEAN: </strong>To enable codesign, consensus decision making and coexistence.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Broad Question: </strong>How do we design coexistence of wind and other resources uses into wind farms?</div>
+									<div class="answer-text-section">
+										<strong class="bold">Focused Question: </strong>How does the colonization of wind structures by marine organisms influence commercial and recreational harvest of fish?
+                  </div>
+								</div>
+							</div>
+						</div>
+            <div class="person-container">
+							<div class="person">
+								<img src="images/Key-Personnel/Kersey-Sturdivant.jpg" alt="Kersey-Sturdivant" class="person-image">
+								<div class="person-text">
+									<h2 class="person-name">Kersey Sturdivant</h2>
+									<div class="bio-bar"></div>
+									<p class="person-institutuion">INSPIRE Environmental, Duke University</p>
+									<p class="person-field">Benthic, Human Disturbance, SPI, Ocean Tech, SciComm</p>
+									<p class="person-learn-more" onclick="handlePersonRequest(this)" id="15">
+										<b>Learn more</b>
+										<i class="arrow left" id="arr15"></i>
+									</p>
+								</div>
+							</div>
+							<div class="answer-container" id="a15">
+								<div class="answer-question"></div>
+								<div class="answer-text">
+									<div class="answer-text-section">
+										<strong class="bold">Bio: </strong>Kersey Sturdivant is a is a marine ecologist who studies the effects of human disturbance on the seafloor, develops marine technology to enhance human understanding of the ocean, and heavily engages in science communication. Presently he is a Principal Scientist at INSPIRE Environmental, Adj Assistant Professor at Duke University, Senior Correspondent at Southern Fried Science, and co-creator of Oceanography for Everyone - an open-source effort to develop low-cost oceanographic hardware.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Why MOCEAN: </strong>To enable a data-driven design and decision-making framework.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Broad Question: </strong>How does the introduction of these hard structures (turbines) influence production and function changes in the surrounding ocean environment?</div>
+									<div class="answer-text-section">
+										<strong class="bold">Focused Question: </strong>How does marine growths and habitat formation influence secondary production in the adjacent soft-bottom environment?
+                  </div>
+								</div>
+							</div>
+						</div>
+            <div class="person-container">
+							<div class="person">
+								<img src="images/Key-Personnel/Gavin-Fay.jpg" alt="Gavin-Fay" class="person-image">
+								<div class="person-text">
+									<h2 class="person-name">Gavin Fay</h2>
+									<div class="bio-bar"></div>
+									<p class="person-institutuion">University of Massachusetts Dartmouth, SMAST</p>
+									<p class="person-field">Ecosystem-Based Management, Quantitative Fisheries Science</p>
+									<p class="person-learn-more" onclick="handlePersonRequest(this)" id="16">
+										<b>Learn more</b>
+										<i class="arrow left" id="arr16"></i>
+									</p>
+								</div>
+							</div>
+							<div class="answer-container" id="a16">
+								<div class="answer-question"></div>
+								<div class="answer-text">
+									<div class="answer-text-section">
+										<strong class="bold">Bio: </strong>Gavin Fay (he/him) is an Associate Professor of Fisheries Oceanography at the University of Massachusetts Dartmouthâ€™s School for Marine Science and Technology (SMAST). His work focuses using statistical and mathematical models for better ecosystem-based decision making for our oceans and the people who depend on them. Gavin received his BSc (Hons) in Marine Biology from the University of Stirling (Scotland), and his MS &amp PhD in Aquatic and Fishery Sciences from the University of Washington, Seattle. He currently serves on the Mid-Atlantic Fishery Management Council's Scientific and Statistical Committee, as well as the New England Fishery Management Council's Ecosystem-Based Fisheries Management Plan Development Team.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Why MOCEAN: </strong>To help support a coordinated and just transition to a blue economy.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Broad Question: </strong>How can simultaneous consideration of multiple human uses of the marine ecosystem be done in a way that promotes co-benefits among sectors and minimizes tradeoffs for coastal community well-being?</div>
+									<div class="answer-text-section">
+										<strong class="bold">Focused Question: </strong>What are the interactions of nature-based wind turbine designs with climate-ready fisheries, and how can these structures support fisheries monitoring and management?
+                  </div>
+								</div>
+							</div>
+						</div>
+            <div class="person-container">
+							<div class="person">
+								<img src="images/Key-Personnel/Cristina-Archer.jpg" alt="Cristina-Archer" class="person-image">
+								<div class="person-text">
+									<h2 class="person-name">Cristina Archer</h2>
+									<div class="bio-bar"></div>
+									<p class="person-institutuion">University of Delaware</p>
+									<p class="person-field">Meteorology, CFD, wake effects</p>
+									<p class="person-learn-more" onclick="handlePersonRequest(this)" id="17">
+										<b>Learn more</b>
+										<i class="arrow left" id="arr17"></i>
+									</p>
+								</div>
+							</div>
+							<div class="answer-container" id="a17">
+								<div class="answer-question"></div>
+								<div class="answer-text">
+									<div class="answer-text-section">
+										<strong class="bold">Bio: </strong>Dr. Cristina L. Archer is the Unidel Howard Cosgrove Career Development Chair in the Environment and a Professor in the Department of Geography and Spatial Sciences and in the Mechanical Engineering Department of the University of Delaware.Â Dr. Archer is the Director of the Center for Research in Wind (CReW), which focuses on wind energy, in particular offshore, and its integration in the electric grid. She earned a B.S. in Civil and Environmental Engineering from the Politecnico di Milano (Milan, Italy) in 1995, an M.S. in Meteorology from San Jose State University in 1998, and a Ph.D. in Civil and Environmental Engineering from Stanford University inÂ 2004. Dr. Archerâ€™s research interests include wind power,Â meteorology, air quality, climate change, numerical modeling, and computational fluid dynamics. She is an expert in wind turbine wakes and their effects on the surrounding environment.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Why MOCEAN: </strong>To enable nature- and data-driven design and decision making framework.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Broad Question: </strong>How do the wakes of offshore wind farms affect the atmosphere and the ocean surface ?</div>
+									<div class="answer-text-section">
+										<strong class="bold">Focused Question: </strong>How can the wind speed deficit and the turbulence added by wind turbines be properly simulated in numerical weather prediction and climate models?
+                  </div>
+								</div>
+							</div>
+						</div>
+            <div class="person-container">
+							<div class="person">
+								<img src="images/Key-Personnel/Mark-Huang.jpg" alt="Mark-Huang" class="person-image">
+								<div class="person-text">
+									<h2 class="person-name">Mark Huang</h2>
+									<div class="bio-bar"></div>
+									<p class="person-institutuion">Co-Founder SeaAhead</p>
+									<p class="person-field">Blue Tech Innovation</p>
+									<p class="person-learn-more" onclick="handlePersonRequest(this)" id="18">
+										<b>Learn more</b>
+										<i class="arrow left" id="arr18"></i>
+									</p>
+								</div>
+							</div>
+							<div class="answer-container" id="a18">
+								<div class="answer-question"></div>
+								<div class="answer-text">
+									<div class="answer-text-section">
+										<strong class="bold">Bio: </strong>Mark Huang co-founded SeaAhead in 2018 after 15 years in cleantech venture experience.Â  He has been on the forefront of emerging sustainability related venture sectors and is passionate about bringing his venture, maritime, cleantech and economic development experience to bear by catalyzing more STEM based venture innovation to 'go-out-to-sea'.Â  He is a trained marine engineer and naval architect.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Why MOCEAN: </strong>To enable a data-driven design and decision making framework that can improve the efficacy and reduce the impact of the emerging offshore wind sector in the US.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Broad Question: </strong>How can the US leadership in research and development and STEM based startups apply to the future of OSW? How can technology advances be better sync'd with marine science?</div>
+									<div class="answer-text-section">
+										<strong class="bold">Focused Question: </strong>What capacity building steps are there that can bridge and then accelerate the commercialization of IP from academia?
+                  </div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="footer-container">
+					<div class="white-spacer"></div>
+					<div class="footer-contents">
+						<div class="footer-left">
+							<p>
+								©MOCEAN
+							</p>
+							<p class="social-site">
+								Email:
+								contact-us@m-ocean.org
+							</p>
+						</div>
+						<div class="footer-right">
+							<p>
+								Follow us on:
+							</p>
+							<div class="social-flex">
+								<p class="social-site">
+									Facebook
+								</p>
+								<p class="social-site">
+									Twitter
+								</p>
+								<p class="social-site">
+									Youtube
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="right-block">
+				<div class="block-header" id="hright"></div>
+				<div class="block-footer"></div>
+			</div>
+		</div>
+	</body>
+</html>
