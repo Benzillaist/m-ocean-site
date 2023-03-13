@@ -2,6 +2,7 @@
 window.onscroll = function() {scrollFunction()};
 window.onresize = function() {resizeFunction()};
 window.onload = function() {onloadFunction()}
+
 //window.onkeyup = function() {resizeFunction()};
 //window.onmousemove = function() {resizeFunction()};
 //window.onunload = function() {resizeFunction()};
@@ -57,6 +58,7 @@ function resizeFunction() {
 function onloadFunction() {
 	updateHeaderText();
 	tellMobile;
+	showSlides(1);
 }
 
 function updateHeaderText() {
@@ -208,4 +210,3 @@ function tellMobile() {
 		}
 	}
 }
-

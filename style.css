@@ -345,7 +345,8 @@ ul li ul li {
 	margin-top: 5px;
 }
 
-.home-img-container .home-img-overlay {
+.home-img-overlay {
+	width: 100%;
 	position: absolute;
 	bottom: 0;
 	background: rgb(0, 0, 0);
@@ -355,16 +356,17 @@ ul li ul li {
 	padding: 2%;
 }
 
-.home-img-container .home-img-overlay h2 {
-	font-size: 3vmin;
+.home-img-overlay h2 {
+	font-size: 28px;
 	padding: 0px;
 	margin: 0px;
+	width: 100%;
 	padding-left: 1%;
 	align-items: left;
 }
 
-.home-img-container .home-img-overlay p {
-	font-size: 2vmin;
+.home-img-overlay p {
+	font-size: 18px;
 	padding-left: 5%;
 	padding-right: 5%;
 }
