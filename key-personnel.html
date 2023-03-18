@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-		<title>MOCEAN </title>
+		<title>MOCEAN</title>
 		<link href="style.css" rel="stylesheet" type="text/css" />
 		<script src="scripts.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js"></script>
@@ -24,27 +24,34 @@
 							</h1>
 						</div>
 						<ul role="navigation" class="header-dropdowns" id="header-dropdowns">
-							<li class="dropdown-container"><a aria-haspopup="true" class="dropdown-container-text">Proposal</a>
+							<li class="dropdown-container"><a aria-haspopup="true" class="dropdown-container-text">NSF Proposal</a>
 								<ul class="dropdown" aria-label="submenu">
-									<li><a href="Documents/Project-Summary.pdf">Project Summary (PDF)</a></li>
+									<li class="dropdown-element"><a href="Documents/Project-Summary.pdf">Project Summary (PDF)</a></li>
 									<div class="gray-bar"></div>
-									<li><a href="Documents/Project-Description.pdf">Project Description (PDF)</a></li>
+									<li class="dropdown-element"><a href="Documents/Project-Description.pdf">Project Description (PDF)</a></li>
 									<div class="gray-bar"></div>
-									<li><a href="Documents/Participating-Organizations.pdf">Engaged Organizations (PDF)</a></li>
+									<li class="dropdown-element"><a href="Documents/Participating-Organizations.pdf">Engaged Groups (PDF)</a></li>
 								</ul>
 							</li>
 							<li class="dropdown-container"><a aria-haspopup="true" class="dropdown-container-text">Workshops</a>
 								<ul class="dropdown" aria-label="submenu">
-									<li><a href="workshop-1.html">Workshop 1: 5/16/22</a></li>
+									<li class="dropdown-element"><a href="workshop-1.html">Workshop 1: 5/16/22</a></li>
 									<div class="gray-bar"></div>
-									<li><a href="workshop-2.html">Workshop 2: 1/6/23</a></li>
+									<li class="dropdown-element"><a href="workshop-2.html">Workshop 2: 1/6/23</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-container"><a aria-haspopup="true" class="dropdown-container-text">Media</a>
+								<ul class="dropdown" aria-label="submenu">
+									<li class="dropdown-element"><a href="additional-info.html">Additional Info</a></li>
+									<div class="gray-bar"></div>
+									<li class="dropdown-element"><a href="news-stories.html">News Stories</a></li>
 								</ul>
 							</li>
 							<li class="dropdown-container"><a aria-haspopup="true" class="dropdown-container-text">People</a>
 								<ul class="dropdown" aria-label="submenu">
-									<li><a href="key-personnel.html">Meet the Team</a></li>
+									<li class="dropdown-element"><a href="key-personnel.html">Meet the Team</a></li>
 									<div class="gray-bar"></div>
-									<li><a href="contact-us.html">Contact Us</a></li>
+									<li class="dropdown-element"><a href="contact-us.html">Contact Us</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -646,6 +653,35 @@
 								</div>
 							</div>
 						</div>
+						<div class="person-container">
+							<div class="person">
+								<img src="images/Key-Personnel/Loretta-Roberson.jpg" alt="Mark-Huang" class="person-image">
+								<div class="person-text">
+									<h2 class="person-name">Loretta Roberson</h2>
+									<div class="bio-bar"></div>
+									<p class="person-institutuion">Marine Biological Laboratory</p>
+									<p class="person-field">Seaweed aquaculture, coral biology</p>
+									<p class="person-learn-more" onclick="handlePersonRequest(this)" id="19">
+										<b>Learn more</b>
+										<i class="arrow left" id="arr19"></i>
+									</p>
+								</div>
+							</div>
+							<div class="answer-container" id="a19">
+								<div class="answer-question"></div>
+								<div class="answer-text">
+									<div class="answer-text-section">
+										<strong class="bold">Bio: </strong>Loretta Roberson is an Associate Scientist at the Marine Biological Laboratory in Woods Hole, MA. She earned her PhD at Stanford University in Biological Sciences focused on the biology and biomechanics of seaweeds. She was a professor at the University of Puerto Rico for 12 years where she studied the effects of anthropogenic change on corals, seaweeds, and seagrass ecosystems. There she developed the Center for Renewable Energy and Sustainability and the Puerto Rico Center for Environmental Neuroscience. Currently she leads an ARPA-E MARINER project to develop the offshore cultivation of seaweed, and a study on how co-cultivation of seaweed and shellfish might enhance productivity and mitigate ocean acidification.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Why MOCEAN: </strong>To help develop the renewable energy industry in the US in a sustainable, equitable way that enhances biodiversity and ecosystem services.</div>
+									<div class="answer-text-section">
+										<strong class="bold">Broad Question: </strong>Can we use nature-inclusive design to cultivate productive ecosystems and aquaculture in offshore waters?</div>
+									<div class="answer-text-section">
+										<strong class="bold">Focused Question: </strong>What substrate chemistries, geometries, and hydrodynamics accelerate biological recruitment and development of stable benthic communities?
+                  </div>
+								</div>
+							</div>
+						</div>
 						
 					</div>
 				</div>
@@ -661,6 +697,7 @@
 								contact-us@m-ocean.org
 							</p>
 						</div>
+<!--
 						<div class="footer-right">
 							<p>
 								Follow us on:
@@ -677,6 +714,7 @@
 								</p>
 							</div>
 						</div>
+-->
 					</div>
 				</div>
 			</div>
