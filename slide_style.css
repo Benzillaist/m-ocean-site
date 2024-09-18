@@ -17,6 +17,7 @@
 /* Hide the images by default */
 .mySlides {
   display: none;
+	height: 530px;
 }
 
 .mySlides img {
@@ -33,17 +34,21 @@
   position: absolute;
   top: 35%;
   width: 55px;
-	height: 159px;
+	height: 30%;
 	vertical-align: middle;
 	text-align: center;
 	align-content: center;
 	align-items: center;
+/*
   margin-top: -22px;
 	line-height: 129px;
 	padding-top: 0px;
+*/
+/*
   padding: 16px;
 	margin-bottom: 0px;
 	margin-top: 0px;
+*/
   color: white;
   font-weight: bold;
   font-size: 30px;
@@ -116,4 +121,7 @@
 @keyframes fade {
   from {opacity: .5}
   to {opacity: 1}
+}
+.prev {
+	
 }

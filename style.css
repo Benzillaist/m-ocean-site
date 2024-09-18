@@ -923,11 +923,15 @@ ul li ul:focus {
 }
 
 .video {
-	width: 94%;
+	width: 93%;
+	height: 100%;
 	aspect-ratio: 16.01/9;
-	padding: 20px 3%;
+	padding: 3% 3%;
 /*	padding-bottom: 30px;*/
 /*  background: gold;*/
+	display: block;
+	margin: auto;
+/*	padding: 0px 0px 0px 0px;*/
 }
 
 .slides {
@@ -1156,4 +1160,8 @@ ul li ul:focus {
 
 .font-3rem {
 	font-size: 1.2rem !important;
+}
+
+.video {
+	
 }
